@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  .container{
+      width: 90%;
+     margin: auto;
+    
+  }
+
+  .header-row{
+      width: 100%;
+      float: left;
+      height: 50px;
+      background-color: rgb(167, 164, 164);
+      
+      
+  }
+
+  .logo{
+        width: 25%;
+        float: left;
+  }
+
+  .logo img{
+      width: 40px;
+      height: 40px;
+      padding-top: 15px;
+
+      align-items: center;
+
+  }
+
+  .menu{
+        width: 50%;
+        float: left;
+        
+  }
+
+  .menu ul{
+    display: flex;
+    padding-top: 15px;
+    padding-left: 55px;
+  }
+
+  .menu ul li{
+            margin-left: 5%;
+            list-style: none;
+
+  }
+
+  .menu ul li a{
+          color:rgb(8, 0, 0);
+          text-decoration: none;
+
+  }
+
+  .search{
+      width: 25%;
+      float: left;
+      padding-top: 15px;
+    
+     padding-left: 15px;
+  }
+
+  .search1{
+      height: 25px;
+      border-radius: 10px;
+      border: 1px solid rgb(255, 255, 255);
+      
+  }
+  
+
+
+  /* Hero section */
+
+ .hero-row{
+        background-image: url(../img/bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        float: left;
+ }
+
+ .content{
+        width: 50%;
+        float: left;
+ }
+
+ h1.WE {
+    margin-top: 100px;
+    color: rgb(10, 245, 233);
+    font-size: 15px;
+}
+
+p.MARKETING {
+    color: white;
+    font-size: 29px;
+}
+
+p.AGENCY {
+    color: white;
+    font-size: 29px;
+}
+
+p.LOREM {
+    color: white;
+    margin-top: 26px;
+    padding: 0px 24px 0px 0px;
+}
+
+
+button.btn1 {
+    background-color: transparent;
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: white;
+}
+ .lady-img{
+     width: 45%;
+     float: left;
+ }
+
+ .lady-img img{
+     width: 100%;
+ }
+
+ .link-side{
+        width: 5%;
+        float: left;
+        padding-top: 450px;
+        padding-bottom: 50px;
+ }
+
+ i.fa-brands.fa-facebook {
+    font-size: 30px;
+    color: #3b5998;
+}
+
+i.fa-brands.fa-instagram-square{
+    color: #E4405F;
+    font-size: 30px;
+    margin-top: 5px;
+
+}
+
+i.fa-brands.fa-twitter {
+    font-size: 30px;
+    color: #1DA1F2;
+    margin-top: 5px;
+}
+
+i.fa-brands.fa-whatsapp-square {
+    font-size: 30px;
+    color: #25D366;
+    margin-top: 5px;
+}
